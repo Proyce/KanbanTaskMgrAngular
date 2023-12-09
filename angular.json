@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "kanban-task-mgr:build:production"
+              "buildTarget": "kanban-task-mgr:build:production"
             },
             "development": {
-              "browserTarget": "kanban-task-mgr:build:development"
+              "buildTarget": "kanban-task-mgr:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "kanban-task-mgr:build"
+            "buildTarget": "kanban-task-mgr:build"
           }
         },
         "test": {
